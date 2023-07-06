@@ -1,0 +1,24 @@
+{
+    "basePath": "http://localhost",
+    "port": 8080,
+    "endpoints": [
+        {
+            "path": "/path/to/resource1",
+            "httpMethod": "post",
+            "response": {
+                "statusCode": 200,
+                "contentType": "text/html",
+                "content": "<html><head></head><body>Response</body></html>"
+            }
+        },
+        {
+            "path": "/path/to/resource2",
+            "httpMethod": "get",
+            "response": {
+                "statusCode": 200,
+                "contentType": "application/json",
+                "content": "{\"status\": \"ok\"}"
+            }
+        }
+    ]
+}
